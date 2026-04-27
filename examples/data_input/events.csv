@@ -1,0 +1,4 @@
+event_date,event_id,event_name,event_type
+2023-02-15,1,Earnings Announcement,earnings
+2023-04-12,2,Market Volatility Event,market_shock
+2023-05-25,3,Policy Announcement,policy
