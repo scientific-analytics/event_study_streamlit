@@ -1,0 +1,10 @@
+event_id,event_date,event_name,event_type,security_id,model,estimation_window_start,estimation_window_end,event_window_start,event_window_end,alpha,final_car,final_car_t_stat,final_car_p_value,is_significant,n_estimation_days,n_event_days
+1,2023-02-15,Earnings Announcement,earnings,AAPL,market_model,-60,-11,-5,5,0.05,-0.02362950412289617,-0.9213812098693811,0.3673160630411685,False,23,6
+1,2023-02-15,Earnings Announcement,earnings,GOOGL,market_model,-60,-11,-5,5,0.05,0.004844346549192373,0.16791528392522392,0.8682565346884867,False,23,6
+1,2023-02-15,Earnings Announcement,earnings,MSFT,market_model,-60,-11,-5,5,0.05,-0.006044052863436122,-0.26271628432606803,0.7953294465181053,False,23,6
+2,2023-04-12,Market Volatility Event,market_shock,AAPL,market_model,-60,-11,-5,5,0.05,-0.0016736280310940838,-0.050061477682900556,0.9603845750733528,False,34,6
+2,2023-04-12,Market Volatility Event,market_shock,GOOGL,market_model,-60,-11,-5,5,0.05,0.0016303515489035948,0.06210698597110208,0.9508639429041188,False,34,6
+2,2023-04-12,Market Volatility Event,market_shock,MSFT,market_model,-60,-11,-5,5,0.05,-0.006171597633136093,-0.20844539576964308,0.8362023304815747,False,34,6
+3,2023-05-25,Policy Announcement,policy,AAPL,market_model,-60,-11,-5,5,0.05,-0.001419011370206202,-0.047487172197728016,0.9624200930572191,False,34,6
+3,2023-05-25,Policy Announcement,policy,GOOGL,market_model,-60,-11,-5,5,0.05,0.0014522547697051538,0.05591802036995824,0.9557548030597842,False,34,6
+3,2023-05-25,Policy Announcement,policy,MSFT,market_model,-60,-11,-5,5,0.05,0.006497735594526891,0.2238569186336911,0.8242917144997981,False,34,6
