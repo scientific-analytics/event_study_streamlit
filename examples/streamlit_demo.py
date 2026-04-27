@@ -7,7 +7,17 @@ Run from the project root with:
 from pathlib import Path
 import sys
 
-sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "src"))
+HERE = Path(__file__).resolve()
+ROOT = HERE.parents[1]
+SRC = ROOT / "src"
+
+print("HERE:", HERE)
+print("ROOT:", ROOT)
+print("SRC exists:", SRC.exists())
+print("SRC contents:", list(SRC.iterdir()) if SRC.exists() else "NO SRC")
+print("PYTHONPATH:", sys.path)
+
+sys.path.insert(0, str(SRC))
 
 import matplotlib.pyplot as plt
 import pandas as pd
