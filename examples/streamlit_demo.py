@@ -22,6 +22,7 @@ from event_studies.plot import (
 
 DATA_DIR = Path(__file__).resolve().parent / "data_input"
 
+#
 _FF_FACTORS_PATH = DATA_DIR / "F-F_Research_Data_Factors_daily.csv"
 _DEFAULT_FACTORS_PATH = DATA_DIR / "factors.csv"
 
